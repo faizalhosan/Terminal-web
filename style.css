@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html, body{ 
+    height: 100%;
+    width: 100%;
+    background-image: url(https://cutewallpaper.org/28/continuous-gif-wallpaper/%E2%84%99%F0%9D%95%8C%E2%84%9D%E2%84%99%F0%9D%95%83%F0%9D%94%BC-%F0%9D%94%BE%F0%9D%95%83%F0%9D%95%86%F0%9D%95%8E.gif);
+    background-size: cover;
+    background-position: center;
+    color: blueviolet;
+}
+#neo{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/576820758911213449/ED8811473BDDB898792B4DAA16A2B168A8FF447A/);
+    background-size: cover;
+    background-position: center;
+}
+
+#emerge{
+    color: #fcec77;
+    background-image: url(https://us.v-cdn.net/6031209/uploads/drupal_attachment/files/2019-07/98/7e/987e2980bd4764d22cc05c36fab79fd1.gif);
+}
+#box{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+#terminal{
+    position: absolute;
+    height: 60%;
+    width: 60%;
+    margin: 10%;
+    margin-left: 20%;
+    padding: .3%;
+    font-size: 30px;
+    color: blueviolet;
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 1px solid;
+
+}
+
+#exit{
+position: absolute;
+height: 3%;
+width: 3%;
+margin: 60%;
+padding: 1x;
+font-size: 20px;
+color: currentColor;
+background-color: rgba(0, 0, 0, 0.9);
+border: 1px solid;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    text-align: left;
+}
+
+
+pre{
+    font-size: 20px;
+}
+
+hr {
+    color: currentColor;
+}
+a{
+    color: currentColor;
+}
