@@ -25,12 +25,11 @@ html, body{
     background-image: url(https://us.v-cdn.net/6031209/uploads/drupal_attachment/files/2019-07/98/7e/987e2980bd4764d22cc05c36fab79fd1.gif);
 }
 #box{
-    position: relative;
     height: 100%;
     width: 100%;
+    display: flow-root;
 }
 #terminal{
-    position: absolute;
     height: 60%;
     width: 60%;
     margin: 10%;
@@ -40,7 +39,7 @@ html, body{
     color: blueviolet;
     background-color: rgba(0, 0, 0, 0.9);
     border: 1px solid;
-
+    overflow: scroll;
 }
 
 #exit{
